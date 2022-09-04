@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная</title>
+    <link rel="icon" href="img/logo-page.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <a href="/" class="header__logo">
+            <div class="header__icon"><img src="img/logo-page.svg" alt="logo" /></div>
+            <div class="header__text">Bonus & Miles</div>
+          </a>
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item"><a href="about.html" class="menu__link">О нас</a></li>
+              <li class="menu__item"><a href="articles.html" class="menu__link">Читать</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+            </ul>
+          </nav>
+          <a href="#" class="header__telegram">
+            <div class="header__telegram-icon">
+              <img src="img/telegram.svg" alt="telegram" />
+            </div>
+            <div class="header__telegram-text">Telegram</div>
+          </a>
+        </div>
+      </header>
+      <main class="main">
+        <section class="best">
+          <div class="best__container">
+            <div class="best__content">
+              <h1 class="best__title">Лучшие банковские карты с милями</h1>
+              <p class="best__subtitle">Сервис по выбору банковских карт для путешественников</p>
+            </div>
+            <div class="best__right">
+              <div class="best__slider">
+                <div class="best__row swiper">
+                  <div class="best__wrapper swiper-wrapper">
+                    <div class="best__slide swiper-slide">
+                      <img src="img/carts/1.jpg" alt="cart" />
+                      <div class="best__cashback">Кэшбек 5%</div>
+                    </div>
+                    <div class="best__slide swiper-slide">
+                      <img src="img/carts/2.jpg" alt="cart" />
+                      <div class="best__cashback">Кэшбек 5%</div>
+                    </div>
+                    <div class="best__slide swiper-slide">
+                      <img src="img/carts/3.jpg" alt="cart" />
+                      <div class="best__cashback">Кэшбек 5%</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+              <a href="" class="best__btn btn">Оформить карту</a>
+            </div>
+          </div>
+        </section>
+        <section class="profit">
+          <div class="profit__container">
+            <h2 class="profit__title title">Самая выгодная карта в категории</h2>
+            <div class="profit__items">
+              <div class="profit__item">
+                <div class="profit__icon">
+                  <img src="img/logo-page.svg" alt="icon" />
+                </div>
+                <div class="profit__text">Авиабилеты</div>
+              </div>
+              <div class="profit__item">
+                <div class="profit__icon">
+                  <img src="img/profit/2.svg" alt="icon" />
+                </div>
+                <div class="profit__text">ЖД билеты</div>
+              </div>
+              <div class="profit__item">
+                <div class="profit__icon">
+                  <img src="img/profit/3.svg" alt="icon" />
+                </div>
+                <div class="profit__text">Аренда авто</div>
+              </div>
+              <div class="profit__item">
+                <div class="profit__icon">
+                  <img src="img/profit/4.svg" alt="icon" />
+                </div>
+                <div class="profit__text">Бронирование отелей</div>
+              </div>
+              <div class="profit__item">
+                <div class="profit__icon">
+                  <img src="img/profit/5.svg" alt="icon" />
+                </div>
+                <div class="profit__text">Туры</div>
+              </div>
+              <div class="profit__item">
+                <div class="profit__icon">
+                  <img src="img/profit/6.svg" alt="icon" />
+                </div>
+                <div class="profit__text">Кафе и рестораны</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="carts">
+          <div class="carts__container">
+            <div class="triggers">
+              <button data-filter="all" class="triggers__item active">Все</button>
+              <button data-filter="credit" class="triggers__item">Кредитные</button>
+              <button data-filter="debet" class="triggers__item">Дебетовые</button>
+            </div>
+            <div class="carts__tabs">
+              <div class="carts__content">
+                <div class="carts__item">
+                  <div class="carts__img">
+                    <img src="img/carts/1.png" alt="cart" />
+                  </div>
+                  <div class="carts__text">
+                    <h4 class="carts__title">Alfa Travel</h4>
+                    <div class="carts__paragraphs">
+                      <p class="carts__paragraph">Кэшбэк 10% за каждый купленный авиабилет</p>
+                      <p class="carts__paragraph">Кэшбэк 20% за аренду авто</p>
+                      <p class="carts__paragraph">Кэшбэк 15% за бронирование отеля</p>
+                    </div>
+                  </div>
+                  <div class="carts__btns">
+                    <div class="carts__stars">
+                      <div class="carts__star"><img src="img/star.svg" alt="star" /></div>
+                      <div class="carts__star"><img src="img/star.svg" alt="star" /></div>
+                      <div class="carts__star"><img src="img/star.svg" alt="star" /></div>
+                      <div class="carts__star"><img src="img/star.svg" alt="star" /></div>
+                      <div class="carts__star"><img src="img/star.svg" alt="star" /></div>
+                    </div>
+                    <div class="carts__btn btn">Оформить карту</div>
+                  </div>
+                </div>
+                <div class="carts__item credit">
+                  <div class="carts__img">
+                    <img src="img/carts/2.png" alt="cart" />
+                  </div>
+                  <div class="carts__text">
+                    <h4 class="carts__title">Alfa Travel</h4>
+                    <div class="carts__paragraphs">
+                      <p class="carts__paragraph">Кэшбэк 10% за каждый купленный авиабилет</p>
+                      <p class="carts__paragraph">Кэшбэк 20% за аренду авто</p>
+                      <p class="carts__paragraph">Кэшбэк 15% за бронирование отеля</p>
+                    </div>
+                  </div>
+                  <div class="carts__btns">
+                    <div class="carts__stars">
+                      <div class="carts__star"><img src="img/star.svg" alt="star" /></div>
+                      <div class="carts__star"><img src="img/star.svg" alt="star" /></div>
+                      <div class="carts__star"><img src="img/star.svg" alt="star" /></div>
+                      <div class="carts__star"><img src="img/star.svg" alt="star" /></div>
+                      <div class="carts__star"><img src="img/star.svg" alt="star" /></div>
+                    </div>
+                    <div class="carts__btn btn">Оформить карту</div>
+                  </div>
+                </div>
+                <div class="carts__item debet">
+                  <div class="carts__img">
+                    <img src="img/carts/3.png" alt="cart" />
+                  </div>
+                  <div class="carts__text">
+                    <h4 class="carts__title">Alfa Travel</h4>
+                    <div class="carts__paragraphs">
+                      <p class="carts__paragraph">Кэшбэк 10% за каждый купленный авиабилет</p>
+                      <p class="carts__paragraph">Кэшбэк 20% за аренду авто</p>
+                      <p class="carts__paragraph">Кэшбэк 15% за бронирование отеля</p>
+                    </div>
+                  </div>
+                  <div class="carts__btns">
+                    <div class="carts__stars">
+                      <div class="carts__star"><img src="img/star.svg" alt="star" /></div>
+                      <div class="carts__star"><img src="img/star.svg" alt="star" /></div>
+                      <div class="carts__star"><img src="img/star.svg" alt="star" /></div>
+                      <div class="carts__star"><img src="img/star.svg" alt="star" /></div>
+                      <div class="carts__star"><img src="img/star.svg" alt="star" /></div>
+                    </div>
+                    <div class="carts__btn btn">Оформить карту</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carts__shows">
+              <a href="" class="carts__show btn">Показать ещё</a>
+            </div>
+          </div>
+        </section>
+        <section class="read">
+          <div class="read__container">
+            <h2 class="read__title title">Что почитать о милях?</h2>
+            <div class="read__body">
+              <a href="article.html" class="read__item">
+                <div class="read__image">
+                  <div class="read__img ibg">
+                    <img src="img/read/1.png" alt="cart" />
+                  </div>
+                </div>
+
+                <div class="read__content">
+                  <div class="read__name">Тинькофф Мили: руководство по милям Тинькофф Банка</div>
+                  <div class="read__text">
+                    Одна из выгодных акций от Тинькофф - программы с милями
+                  </div>
+                  <div href="" class="read__btns">
+                    <div class="read__btn">Читать</div>
+                    <img src="img/arrow.svg" alt="arrow" />
+                  </div>
+                </div>
+              </a>
+              <a href="article.html" class="read__item">
+                <div class="read__image">
+                  <div class="read__img ibg">
+                    <img src="img/read/2.png" alt="cart" />
+                  </div>
+                </div>
+
+                <div class="read__content">
+                  <div class="read__name">Тинькофф Мили: руководство по милям Тинькофф Банка</div>
+                  <div class="read__text">
+                    Банк входит в число самых надежных и диверсифицированных финансовых структур
+                    России. Альфа-Банк является ....
+                  </div>
+                  <div href="" class="read__btns">
+                    <div class="read__btn">Читать</div>
+                    <img src="img/arrow.svg" alt="" />
+                  </div>
+                </div>
+              </a>
+              <a href="article.html" class="read__item">
+                <div class="read__image">
+                  <div class="read__img ibg">
+                    <img src="img/read/3.png" alt="cart" />
+                  </div>
+                </div>
+
+                <div class="read__content">
+                  <div class="read__name">Тинькофф Мили: руководство по милям Тинькофф Банка</div>
+                  <div class="read__text">
+                    Одна из выгодных акций от Тинькофф - программы с милями
+                  </div>
+                  <div href="" class="read__btns">
+                    <div class="read__btn">Читать</div>
+                    <img src="img/arrow.svg" alt="arrow" />
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <a href="/" class="footer__logo">
+            <div class="footer__icon"><img src="img/logo-white.svg" alt="logo" /></div>
+            <div class="footer__text">Bonus & Miles</div>
+          </a>
+          <nav class="footer__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="about.html" class="menu__link menu__link_white">О нас</a>
+              </li>
+              <li class="menu__item">
+                <a href="articles.html" class="menu__link menu__link_white">Читать</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link menu__link_white">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#" class="footer__telegram">
+            <div class="footer__telegram-icon">
+              <img src="img/telegram-white.svg" alt="telegram" />
+            </div>
+            <div class="footer__telegram-text">Telegram</div>
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
